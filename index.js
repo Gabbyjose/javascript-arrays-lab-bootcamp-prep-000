@@ -9,7 +9,7 @@ function destructivelyAppendKitten(name){
 
 function destructivelyPrependKitten(name){
   kittens = ["Milo", "Otis", "Garfield"]
-  kittens.shift(name);
+  kittens.unshift(name);
   return kittens;
 }
 
@@ -19,7 +19,7 @@ function destructivelyRemoveLastKitten(name){
 }
 
 function destructivelyRemoveFirstKitten(name){
-  kittens.unshift();
+  kittens.shift();
   return kittens;
 }
 
